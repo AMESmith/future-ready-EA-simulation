@@ -52,7 +52,7 @@ def export_to_ppt(summary_df, hist_data, scenario_name):
 # ----------------------------
 # Styling
 # ----------------------------
-st.set_page_config(page_title="Future Ready Workforce - Monte Carlo", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Future Ready Workforce", page_icon="📊", layout="wide")
 st.markdown("""
 <style>
 .kpi-card {padding:14px;border-radius:16px;background:#0f172a;color:white;box-shadow:0 10px 30px rgba(2,6,23,0.35);}
