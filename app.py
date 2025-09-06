@@ -1,5 +1,5 @@
 # app.py
-# Future-Ready Workforce: Monte Carlo Simulation (Executive Edition)
+# Future-Ready Workforce (Executive Edition)
 # Run: streamlit run app.py
 
 import numpy as np
