@@ -63,7 +63,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("📊 Future Ready Workforce — Monte Carlo Outcomes")
+st.title("📊 Future Ready Workforce")
 st.caption("Executive-ready interactive model: productivity target probability, hard savings, satisfaction, and ROI timeline distribution.")
 
 # ----------------------------
@@ -96,7 +96,7 @@ PRESETS = {
 with st.sidebar:
     st.header("🎛️ Controls")
     scenario = st.selectbox("Preset scenarios", list(PRESETS.keys()) + ["Custom configuration"], index=1)
-    runs = st.slider("Monte Carlo runs", 2_000, 50_000, 10_000, step=1_000)
+    runs = st.slider("simulation runs", 2_000, 50_000, 10_000, step=1_000)
     st.markdown("---")
     st.subheader("Core Inputs")
 
